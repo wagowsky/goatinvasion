@@ -4,8 +4,8 @@ const Top = () => {
   return (
     <div className="top">
       <div className="black"></div>
-      <div className="blue"></div>
-     <div className="img"></div>
+    <img className="img" src={top} alt="top"/>
+     {/* <div className="img"></div> */}
 <div className="black-invert"></div>
     </div>
   );
