@@ -1,5 +1,5 @@
 import React from 'react';
-import bottom from "./assets/bottom.jpg"
+// import bottom from "./assets/bottom.jpg"
 const Bottom = () => {
   return (
     <div className="bottom">
