@@ -36,10 +36,10 @@ html {
   }
 
 .menuContainer{
-
+border:1px solif white;
 }
   .menu{
-    font-size:6.5rem;
+    font-size:10vw;
   
   }
   .menu1{
@@ -59,12 +59,12 @@ html {
   background: #1d2f3c;
   h1 {
     font-weight: 100;
-    font-size: 10rem;
+    font-size: 20vw;
   }
 
   h2 {
     text-decoration-line: underline;
-    font-size: 3rem;
+    font-size: 10vw;
     font-weight: 100;
     font-family: 'EB Garamond', serif;
     font-weight: 100;
@@ -79,7 +79,7 @@ html {
 }
 
 .bottom {
-  padding: 20% 5%;
+  padding: 20% 2%;
   //   min-height: 33vh;
   background: url('./assets/mobile-bottom.jpg');
   background-position: right;
@@ -88,12 +88,12 @@ html {
   .contact {
     font-family: 'EB Garamond', serif;
     font-weight: 100;
-    font-size: 12rem;
+    font-size: 25vw;
   }
 
   h2 {
-    font-size: 3rem;
-    margin: 1rem;
+    font-size: 15vw;
+    margin: 5%;
   }
   form {
     margin-top: 5%;
@@ -102,27 +102,27 @@ html {
     align-items: center;
 
     input {
-      padding: 2rem;
+      padding: 5%;
     }
 
     input,
     textarea,
     button {
-      width: 70%;
+      width: 80%;
       border-radius: 15px;
-      margin-top: 1rem;
+      margin-top: 5%;
       border: none;
     }
 
     textarea {
-      height: 50rem;
+      height:50rem;
     }
   }
 
   button {
     background: none;
 
-    font-size: 5rem;
+    font-size: 15vw;
     font-weight: 600;
   }
 }
