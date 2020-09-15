@@ -1,5 +1,6 @@
 import React from 'react';
-import top from "./assets/mobile-top.jpg"
+// import top from "./assets/mobile-top.jpg"
+
 const Top = () => {
   return (
     <div className="top">
