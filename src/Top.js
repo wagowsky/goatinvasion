@@ -11,8 +11,8 @@ const Top = () => {
         <h2 className="menu menu2">Contact</h2>
         </div>
       </div>
-    <img className="img" src={top} alt="top"/>
-     {/* <div className="img"></div> */}
+    {/* <img className="img" src={top} alt="top"/> */}
+     <div className="img"></div>
 <div className="black-invert"></div>
     </div>
   );
