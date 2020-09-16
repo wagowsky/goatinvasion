@@ -23,12 +23,13 @@ const Work = () => {
           <h2>More</h2>
         </div>
         <div className='project'>
-          <img
-            className='logo'
-            src={logofantasyillustration}
-            alt='logofantasyillustration'
-          />
+          <div className="logoContainer">
+          <img className='logo' src={logofantasyillustration}alt='logofantasyillustration'/>
+            </div>
+            <div className="more">
+
           <h2>More</h2>
+            </div>
         </div>
       </div>
     </div>
