@@ -24,12 +24,13 @@ html {
   }
 
   .img {
-    background:url("./assets/mobile-top.jpg");
+    // background:url("./assets/mobile-top.jpg");
+    background:url("./assets/top.jpg");
     min-height:100vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 100%;
+    width: 100vw;
   }
 
   .black-invert {
@@ -39,19 +40,27 @@ html {
   }
 
   .menuContainer {
-    border: 1px solif white;
+
+ 
+
   }
   .menu {
     font-size: 10vw;
+  }
+  .menu:hover{
+    cursor: pointer;
   }
   .menu1 {
     margin-left: -100%;
   }
 
   .menu2 {
-    margin-left: 60%;
+    margin-left: 50%;
   }
+
+
 }
+
 
 .work{
   h1 {
@@ -94,7 +103,9 @@ html {
 }
 
 .bottom {
-  padding: 20% 2%;
+display:flex;
+flex-direction:column;
+align-items: center;
   background: url('./assets/mobile-bottom.jpg');
   background-position: right;
   background-size: cover;
@@ -110,10 +121,12 @@ html {
     margin: 5%;
   }
   form {
+   width:90%;
     margin-top: 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom:5%;
 
     input {
       padding: 3%;
@@ -163,7 +176,7 @@ html {
       }
     
       .menu2 {
-        margin-left: 10%;
+        margin-left: 60%;
       }
 
 
@@ -177,12 +190,10 @@ html {
       background-size: contain;
       background-repeat:no-repeat;
       transform:scaleX(1.1);
-      height:110vh;
+      
     }
 
-    .black-invert {
-      margin-top: -1%;
-    }
+   
   }
 
 
@@ -203,7 +214,10 @@ html {
 
 
 
+  @media all and (min-width: 900px) {
 
+
+  
 
   .work {
     h1 {
@@ -246,18 +260,23 @@ html {
 
 
   .bottom {
-    padding: 3% 35% 20% 35%;
+    flex-direction:column;
+    align-items: center;
+    display:flex;
+    justify-content: center;
     .contact {
       font-size: 5vw;
       font-weight: 100;
     }
 
     form {
+      width:40%;
       h2 {
         margin: 2% 0 0 5%;
         text-align: left;
+        font-size:3rem;
       }
-      font-size: 0.5vw;
+     
 
       margin-top: 10%;
       padding: 5% 0;
@@ -267,9 +286,10 @@ html {
       input,
       textarea,
       button {
-        width: 95%;
+       
         border-radius: 5px;
         margin-top: 2rem;
+       
       }
 
       input {
@@ -288,4 +308,5 @@ html {
       }
     }
   }
+}
 }

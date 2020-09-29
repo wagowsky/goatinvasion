@@ -5,12 +5,20 @@ import Top from './Top';
 import Work from './Work';
 import Bottom from './Bottom';
 
+
+
+
 function App() {
   return (
     <div className="app">
-      <Top/>
-      <Work/>
-      <Bottom/>
+      <Top />
+
+
+      
+
+
+      <Work id="work"/>
+      <Bottom id="contact"/>
     </div>
   );
 }
